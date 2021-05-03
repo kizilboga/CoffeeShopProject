@@ -14,7 +14,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		@SuppressWarnings("deprecation")
-		Customer realCustomer = new Customer(1,"idris","kýzýlboða","31540161562",new Date(1986,6,28));
+		Customer realCustomer = new Customer(1,"idr","kýzýl","31840171568",new Date(1986,6,28));
 		Customer fakeCustomer = new Customer(2,"Engin","Demiroð","12345678901",new Date(1989,2,11));
 		
 		BaseCustomerManager neroCustomerManager = new NeroCustomerManager(new CustomerCheckManager());
